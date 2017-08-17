@@ -1,4 +1,4 @@
-#刘大爷网站说明
+# 刘大爷网站说明
 
 # 视频页自动发布原理
 通过执行python程序抓取最新的资源放到liudayeblogs/source/vip/table.html
