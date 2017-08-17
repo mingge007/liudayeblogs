@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+## Welcome Liudaye网站
 
-You can use the [editor on GitHub](https://github.com/mingge007/lsof_java/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# 视频页自动发布原理
+通过执行python程序抓取最新的资源放到liudayeblogs/source/vip/table.html
+同hexo编译并且发布到git@github.com:mingge007/lsof_java.git
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# 创建博客
+hexo new 博客名 
+会在生成一个markdown文件liudayeblogs/source/_posts/
 
-### Markdown
+起始格式使用如下
+---
+title: 标题
+date: 2017-08-17 16:42:02
+tags:
+- 标题1
+- 标题3
+- 标题3
+categories: 目录1
+#评论
+comments: ture
+#打赏
+reward: true
+toc: true
+---
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+# 编译网站文件并且上传
+sh createWWW.sh
 
-# Header 1
-## Header 2
-### Header 3
+# 从git拉取最新版本代码，并且提交本地代码到git 库
+sh submitgit.sh
 
-- Bulleted
-- List
+# 本地查看效果
+sh view.sh
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mingge007/lsof_java/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## hexo 常用命令说明
+hexo clean //清理public下的文件
+hexo g //编译文件
+hexo d //发布上传git
+hexo new blog //创建博客

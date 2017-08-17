@@ -6,3 +6,4 @@ hexo g
 rm public/vip/ -Rf
 cp -ri source/vip/  public/vip/
 hexo d
+
