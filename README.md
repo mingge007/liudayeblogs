@@ -1,15 +1,18 @@
 # 刘大爷网站说明
 
-# 视频页自动发布原理
+## 视频页自动发布原理
 通过执行python程序抓取最新的资源放到liudayeblogs/source/vip/table.html
-同hexo编译并且发布到git@github.com:mingge007/lsof_java.git
 
-# 创建博客
+通过hexo命令编译并且发布到网站库 git@github.com:mingge007/lsof_java.git
+
+## 创建博客
 hexo new 博客名 
 会在生成一个markdown文件liudayeblogs/source/_posts/
 
 起始格式使用如下
+
 ```
+---
 title: 标题
 date: 2017-08-17 16:42:02
 tags:
