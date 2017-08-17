@@ -3,9 +3,45 @@
 
 
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <url>
+    <loc>http://www.liudaye.com/blogs/2017-08-17-python-Selenium.html</loc>
+    <lastmod>2017-08-17T09:47:31.263Z</lastmod>
+    <data>
+        <display>
+        <title>Selenium学习</title>
+        <pubTime>2017-08-17T08:42:02.000Z</pubTime>
+        
+        <tag>学习笔记</tag>
+         
+        <tag>python</tag>
+         
+        <tag>测试</tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="http://www.liudaye.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
   <url>
     <loc>http://www.liudaye.com/blogs/2017-03-15-music-test.html</loc>
-    <lastmod>2017-03-20T10:18:42.370Z</lastmod>
+    <lastmod>2017-03-20T12:13:15.648Z</lastmod>
     <data>
         <display>
         <title>『欧美』 春天，与电影里的民谣有个约会</title>
@@ -25,9 +61,11 @@
     </url>
 
     
+    
+    
   <url>
     <loc>http://www.liudaye.com/blogs/2017-03-20-second.html</loc>
-    <lastmod>2017-03-20T10:17:58.114Z</lastmod>
+    <lastmod>2017-03-20T12:13:15.648Z</lastmod>
     <data>
         <display>
         <title>『华语摇滚』</title>
@@ -49,7 +87,7 @@
     
   <url>
     <loc>http://www.liudaye.com/blogs/2017-03-15-photos1.html</loc>
-    <lastmod>2017-03-15T10:18:21.756Z</lastmod>
+    <lastmod>2017-03-20T12:13:15.648Z</lastmod>
     <data>
         <display>
         <title>春天游记</title>
@@ -71,7 +109,7 @@
     
   <url>
     <loc>http://www.liudaye.com/blogs/2016-03-14-firstblog.html</loc>
-    <lastmod>2017-03-15T05:24:59.458Z</lastmod>
+    <lastmod>2017-03-20T12:13:15.648Z</lastmod>
     <data>
         <display>
         <title>博客安家手记</title>
@@ -90,8 +128,4 @@
     </data>
     </url>
 
-    
-    
-    
-    
 </urlset>
