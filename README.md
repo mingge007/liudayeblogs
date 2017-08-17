@@ -9,7 +9,7 @@ hexo new 博客名
 会在生成一个markdown文件liudayeblogs/source/_posts/
 
 起始格式使用如下
----
+```
 title: 标题
 date: 2017-08-17 16:42:02
 tags:
@@ -23,6 +23,7 @@ comments: ture
 reward: true
 toc: true
 ---
+```
 编辑完成后 执行sh createWWW.sh完成编译上传
 
 ## 命令说明
