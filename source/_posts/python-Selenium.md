@@ -1,6 +1,6 @@
 ---
 title: Selenium学习
-date: 2017-08-17 16:42:02
+date: 2017-07-17 16:42:02
 tags:
 - 学习笔记
 - python
@@ -12,13 +12,13 @@ comments: ture
 reward: true
 toc: true
 ---
-#介绍Selenium
+# 介绍Selenium
 Selenium 是什么？一句话，自动化测试工具。它支持各种浏览器，包括 Chrome，Safari，Firefox 等主流界面式浏览器，如果你在这些浏览器里面安装一个 Selenium 的插件，那么便可以方便地实现Web界面的测试。换句话说叫 Selenium 支持这些浏览器驱动。Selenium支持多种语言开发，比如 Java，C，Ruby等等，而对于python，当然也是支持的！
-
-#安装python
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=575073602&auto=0&height=430"></iframe>
+# 安装python
 https://www.python.org/downloads/ 下载python3不要在首页直接点下载，要根据电脑选择适合的安装包
 https://www.python.org/downloads/release/python-362/ 选【Windows x86-64 executable installer】版本
-
+<!-- more -->
 安装时选择自定义目录，添加path，和下载基本库，debug等等选项。
 
 组合按键：win+r，输入：sysdm.cpl，选择高级，查看环境变量是否都配置完整
@@ -37,7 +37,7 @@ C:\Users\liudaye>pip3 -V
 pip 9.0.1 from d:\python36\lib\site-packages (python 3.6)
 
 ```
-#安装selenium
+# 安装selenium
 pip3 install
 ```shell
 C:\Users\liudaye>pip3 install selenium
@@ -63,6 +63,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 运行这段代码，会自动打开浏览器，然后访问百度。
+[![http://omucyxh0n.bkt.clouddn.com/20170516200431976.png?imageView2/0/q/75|watermark/2/text/5YiY5aSn54i3/font/5a6L5L2T/fontsize/480/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10|imageslim "自动效果")](http://omucyxh0n.bkt.clouddn.com/20170516200431976.png?imageView2/0/q/75|watermark/2/text/5YiY5aSn54i3/font/5a6L5L2T/fontsize/480/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10|imageslim "自动效果")
 
 
  Linux的环境变量也好设置，在~/.bashrc文件中export即可，记得source ~/.bashrc。
@@ -91,7 +92,7 @@ elem.send_keys("pycon")
 elem.send_keys(Keys.RETURN)
 print(driver.page_source)
 ```
-[![自动效果](http://img.blog.csdn.net/20170516200636651?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYzQwNjQ5NTc2Mg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast "自动效果")](http://img.blog.csdn.net/20170516200636651?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYzQwNjQ5NTc2Mg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast "自动效果")
+[![自动效果](http://omucyxh0n.bkt.clouddn.com/20170516200636651.gif?imageView2/0/q/75|watermark/2/text/5YiY5aSn54i3/font/5a6L5L2T/fontsize/480/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10|imageslim "自动效果")](http://omucyxh0n.bkt.clouddn.com/20170516200636651.gif?imageView2/0/q/75|watermark/2/text/5YiY5aSn54i3/font/5a6L5L2T/fontsize/480/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10|imageslim "自动效果")
 
 ## 元素选取
   单个元素选取Api：
